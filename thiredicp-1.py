@@ -1,0 +1,27 @@
+"taking user inputs"
+score=int(input("enter the score"))
+"checking the cases"
+if(score>=93 and score<=100):
+    print("grade is A")
+elif(score>=90 and score<93):
+    print("grade is A-")
+elif(score>=87 and score<90):
+    print("grade is B+")
+elif(score>=83 and score<87):
+    print("grade is B")
+elif(score>=80 and score<83):
+    print("grade is B-")
+elif(score>=77 and score<80):
+    print("grade is C+")
+elif(score>=73 and score<77):
+    print("grade is C")
+elif(score>=70 and score<73):
+    print("grade is C-")
+elif(score>=67 and score<70):
+    print("grade is D+")
+elif(score>=63 and score<67):
+    print("grade is D")
+elif(score>=60 and score<63):
+    print("grade is D-")
+else:
+    print("grade is F")
